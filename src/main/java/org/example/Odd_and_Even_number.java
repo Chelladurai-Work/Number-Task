@@ -9,7 +9,10 @@ class Odd_number {
         int input=scanner.nextInt();
         for (int i=0;i<=input;i++){
             if(i%2==1){
-                System.out.println(i);
+                System.out.println("Odd"+i);
+            }
+            else{
+                System.out.println("Even"+i);
             }
         }
     }
